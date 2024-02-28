@@ -1,6 +1,6 @@
 # Kotlin-Delegates
 
-The Kotlin-Delegates library provides a set of useful property delegates for simplifying common patterns in Kotlin development. These delegates can be easily integrated into your projects to enhance code readability and maintainability.
+Just some rather experimental custom kotlin delegates. Use with caution.
 
 ## Usage Examples
 
@@ -52,7 +52,7 @@ println(data) // Output: null
 println(data.isConsumable) // Output: false
 ```
 
-### MutableMapObservable
+### MapObservable
 
 `MapObservable` is a delegate that combines the functionality of a map delegate with that of an observable. It notifies a callback function when a property's value changes.
 
