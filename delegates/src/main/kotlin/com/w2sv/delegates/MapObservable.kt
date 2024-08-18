@@ -10,7 +10,7 @@ import kotlin.reflect.KProperty
  *
  * Reference: https://stackoverflow.com/a/52814429/12083276
  */
-class MutableMapObservable<T>(
+class MapObservable<T>(
     private val map: MutableMap<String, T>,
     private val observe: ((property: KProperty<*>, oldValue: T, newValue: T) -> Unit)
 ) : ReadWriteProperty<Any?, T> {

@@ -11,7 +11,7 @@ internal class MapObservableTest {
     }
 
     private val map = mutableMapOf("property" to 69)
-    private var property by MutableMapObservable(map) { _, _, _ ->
+    private var property by MapObservable(map) { _, _, _ ->
         nObserverCalls += 1
     }
 
