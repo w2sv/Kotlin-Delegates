@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Kotlin-Delegates"
-include("delegates")
+include("kotlindelegates")
